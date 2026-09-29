@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import { SponsorCard } from '@/components/sponsors/SponsorCard';
 import { SectionHeading } from '@/components/shared/SectionHeading';
 import { getSponsors } from '@/lib/api/sponsors';
