@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import { Hero } from '@/components/shared/Hero';
 import { SectionHeading } from '@/components/shared/SectionHeading';
 import { EventCategoryCard } from '@/components/events/EventCategoryCard';
