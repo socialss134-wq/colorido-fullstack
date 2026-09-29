@@ -1,0 +1,84 @@
+import type { Announcement } from '@/lib/types';
+
+export const announcements: Announcement[] = [
+  {
+    id: 'a001',
+    title: 'Registration Now Open for COLORIDO 2K26!',
+    description:
+      'Registrations for all cultural and sports events are now open. Register before March 10, 2026 to secure your spot. Limited slots available for team events.',
+    date: '2026-02-20',
+    category: 'Registration',
+    priority: 'high',
+    published: true,
+  },
+  {
+    id: 'a002',
+    title: 'Band Battle Slots Filling Fast',
+    description:
+      'Only 4 slots remaining for the Band Battle competition. Register your band immediately to avoid missing out.',
+    date: '2026-02-25',
+    category: 'Cultural',
+    priority: 'high',
+    published: true,
+  },
+  {
+    id: 'a003',
+    title: 'Sports Registration Deadline Extended',
+    description:
+      'The registration deadline for all sports events has been extended to March 8, 2026. Take advantage of this extension and register your teams now.',
+    date: '2026-02-28',
+    category: 'Sports',
+    priority: 'medium',
+    published: true,
+  },
+  {
+    id: 'a004',
+    title: 'Choreoday Theme Announced',
+    description:
+      'The theme for Choreoday 2026 is "Colors of Unity". Teams must interpret and present this theme through their choreography.',
+    date: '2026-03-01',
+    category: 'Cultural',
+    priority: 'medium',
+    published: true,
+  },
+  {
+    id: 'a005',
+    title: 'Bus Shuttle Service Available',
+    description:
+      'Free shuttle bus service will be available from the main city bus stand to the college campus every 30 minutes during the fest days.',
+    date: '2026-03-03',
+    category: 'General',
+    priority: 'low',
+    published: true,
+  },
+  {
+    id: 'a006',
+    title: 'Important: Bring Valid College ID',
+    description:
+      'All participants must carry a valid college ID card for entry to the campus and event venues. No exceptions will be made.',
+    date: '2026-03-05',
+    category: 'Important',
+    priority: 'high',
+    published: true,
+  },
+  {
+    id: 'a007',
+    title: 'Fashion Show Theme Revealed',
+    description:
+      'The theme for Ramp Rhapsody 2026 is "Vibrant Heritage". Teams should design their collections around this theme.',
+    date: '2026-03-05',
+    category: 'Cultural',
+    priority: 'medium',
+    published: true,
+  },
+  {
+    id: 'a008',
+    title: 'Results for Solo Symphony Published',
+    description:
+      'Results for the Solo Symphony singing competition have been published. Check the Results page for details.',
+    date: '2026-03-16',
+    category: 'Cultural',
+    priority: 'medium',
+    published: true,
+  },
+];

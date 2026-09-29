@@ -1,0 +1,464 @@
+[
+  {
+    "id": "fine-arts-001",
+    "name": "Canvas Chronicles",
+    "category": "Cultural",
+    "subCategory": "Fine Arts",
+    "type": "Individual",
+    "description": "A live painting competition where participants express their creativity on a given theme within a time limit.",
+    "date": "2026-03-15",
+    "time": "10:00 AM",
+    "venue": "Art Block, Room 101",
+    "eligibility": "All college students",
+    "teamSize": 1,
+    "registrationFee": 100,
+    "registrationDeadline": "2026-03-10",
+    "rules": [
+      "Theme will be announced on the spot",
+      "Participants must bring their own materials",
+      "Time limit: 2 hours",
+      "Canvas size: A3 provided by organizers"
+    ],
+    "importantInstructions": [
+      "Report 30 minutes before the event",
+      "Bring valid college ID"
+    ],
+    "contactPerson": "Priya Sharma",
+    "contactNumber": "+91 98765 43210",
+    "status": "open",
+    "featured": true
+  },
+  {
+    "id": "music-solo-001",
+    "name": "Solo Symphony",
+    "category": "Cultural",
+    "subCategory": "Music & Band",
+    "type": "Solo",
+    "description": "A solo singing competition showcasing vocal talent across genres — classical, Bollywood, or Western.",
+    "date": "2026-03-15",
+    "time": "2:00 PM",
+    "venue": "Main Auditorium",
+    "eligibility": "All college students",
+    "teamSize": 1,
+    "registrationFee": 150,
+    "registrationDeadline": "2026-03-10",
+    "rules": [
+      "Time limit: 5 minutes including setup",
+      "Backing tracks allowed (bring on USB)",
+      "No lip-syncing permitted",
+      "Judges decision is final"
+    ],
+    "importantInstructions": [
+      "Submit backing track 1 day before event",
+      "Report 1 hour before performance"
+    ],
+    "contactPerson": "Arjun Mehta",
+    "contactNumber": "+91 98765 43211",
+    "status": "open",
+    "featured": true
+  },
+  {
+    "id": "music-group-001",
+    "name": "Band Battle",
+    "category": "Cultural",
+    "subCategory": "Music & Band",
+    "type": "Group",
+    "description": "A battle of the bands competition. Bring your best set and compete for the title of best college band.",
+    "date": "2026-03-16",
+    "time": "6:00 PM",
+    "venue": "Open Air Stage",
+    "eligibility": "All college students, band of 3-8 members",
+    "teamSize": 8,
+    "registrationFee": 500,
+    "registrationDeadline": "2026-03-10",
+    "rules": [
+      "Time limit: 15 minutes including setup",
+      "Original compositions get bonus points",
+      "Bands must bring their own instruments",
+      "Sound check 2 hours before performance"
+    ],
+    "importantInstructions": [
+      "Submit band profile and tracklist beforehand",
+      "Drum kit provided; bring cymbals and snare"
+    ],
+    "contactPerson": "Arjun Mehta",
+    "contactNumber": "+91 98765 43211",
+    "status": "filling-fast",
+    "featured": true
+  },
+  {
+    "id": "dance-solo-001",
+    "name": "Rhythm Solo",
+    "category": "Cultural",
+    "subCategory": "Dance",
+    "type": "Solo",
+    "description": "A solo dance competition across all dance styles — classical, hip-hop, contemporary, and more.",
+    "date": "2026-03-16",
+    "time": "11:00 AM",
+    "venue": "Main Auditorium",
+    "eligibility": "All college students",
+    "teamSize": 1,
+    "registrationFee": 150,
+    "registrationDeadline": "2026-03-10",
+    "rules": [
+      "Time limit: 4 minutes",
+      "Props allowed (must be safe)",
+      "Bring music on USB in MP3 format",
+      "Costumes should be appropriate"
+    ],
+    "importantInstructions": [
+      "Submit music track 1 day before",
+      "Green room available for costume changes"
+    ],
+    "contactPerson": "Sneha Reddy",
+    "contactNumber": "+91 98765 43212",
+    "status": "open",
+    "featured": true
+  },
+  {
+    "id": "dance-group-001",
+    "name": "Groove Syndicate",
+    "category": "Cultural",
+    "subCategory": "Dance",
+    "type": "Group",
+    "description": "A group dance competition where teams of 4-12 dancers synchronize their moves to win the crowd.",
+    "date": "2026-03-17",
+    "time": "5:00 PM",
+    "venue": "Open Air Stage",
+    "eligibility": "All college students, team of 4-12",
+    "teamSize": 12,
+    "registrationFee": 600,
+    "registrationDeadline": "2026-03-10",
+    "rules": [
+      "Time limit: 6 minutes",
+      "Team size: 4 to 12 members",
+      "Props and backdrops allowed",
+      "No fire or hazardous materials"
+    ],
+    "importantInstructions": [
+      "Submit music 2 days before event",
+      "Sound check at 3 PM on event day"
+    ],
+    "contactPerson": "Sneha Reddy",
+    "contactNumber": "+91 98765 43212",
+    "status": "filling-fast",
+    "featured": true
+  },
+  {
+    "id": "choreoday-001",
+    "name": "Choreoday: Rangmanch",
+    "category": "Cultural",
+    "subCategory": "Choreoday",
+    "type": "Group",
+    "description": "A theme-based choreography competition where teams tell a story through dance and expression.",
+    "date": "2026-03-17",
+    "time": "10:00 AM",
+    "venue": "Main Auditorium",
+    "eligibility": "All college students, team of 6-15",
+    "teamSize": 15,
+    "registrationFee": 700,
+    "registrationDeadline": "2026-03-10",
+    "rules": [
+      "Theme: \"Colors of Unity\"",
+      "Time limit: 8 minutes",
+      "Team size: 6 to 15 members",
+      "Narration and music combined allowed"
+    ],
+    "importantInstructions": [
+      "Theme interpretation is key judging criterion",
+      "Submit script outline beforehand"
+    ],
+    "contactPerson": "Sneha Reddy",
+    "contactNumber": "+91 98765 43212",
+    "status": "open"
+  },
+  {
+    "id": "dramatics-001",
+    "name": "Stagecraft Theatre",
+    "category": "Cultural",
+    "subCategory": "Dramatics",
+    "type": "Group",
+    "description": "A stage play competition where teams perform a short play on a theme of their choice.",
+    "date": "2026-03-16",
+    "time": "2:00 PM",
+    "venue": "Seminar Hall",
+    "eligibility": "All college students, team of 4-10",
+    "teamSize": 10,
+    "registrationFee": 400,
+    "registrationDeadline": "2026-03-10",
+    "rules": [
+      "Time limit: 20 minutes",
+      "Team size: 4 to 10 members",
+      "Props and minimal set allowed",
+      "Language: English or Hindi"
+    ],
+    "importantInstructions": [
+      "Submit play synopsis 3 days before",
+      "Lighting cues to be discussed with tech team"
+    ],
+    "contactPerson": "Rahul Verma",
+    "contactNumber": "+91 98765 43213",
+    "status": "open"
+  },
+  {
+    "id": "fashion-001",
+    "name": "Ramp Rhapsody",
+    "category": "Cultural",
+    "subCategory": "Fashion Show",
+    "type": "Group",
+    "description": "A fashion show competition where teams showcase themed collections on the ramp.",
+    "date": "2026-03-18",
+    "time": "7:00 PM",
+    "venue": "Open Air Stage",
+    "eligibility": "All college students, team of 6-15",
+    "teamSize": 15,
+    "registrationFee": 800,
+    "registrationDeadline": "2026-03-10",
+    "rules": [
+      "Theme: \"Vibrant Heritage\"",
+      "Time limit: 10 minutes",
+      "Team size: 6 to 15 members",
+      "Original designs get bonus points"
+    ],
+    "importantInstructions": [
+      "Submit mood board beforehand",
+      "Green room and changing area provided"
+    ],
+    "contactPerson": "Priya Sharma",
+    "contactNumber": "+91 98765 43210",
+    "status": "open"
+  },
+  {
+    "id": "tekraft-001",
+    "name": "Tekraft Innovation Challenge",
+    "category": "Cultural",
+    "subCategory": "Tekraft Events",
+    "type": "Group",
+    "description": "A tech-innovation event where teams present creative solutions to real-world problems.",
+    "date": "2026-03-15",
+    "time": "9:00 AM",
+    "venue": "Tech Block, Lab 3",
+    "eligibility": "All college students, team of 2-4",
+    "teamSize": 4,
+    "registrationFee": 300,
+    "registrationDeadline": "2026-03-10",
+    "rules": [
+      "Problem statements released 48 hours before",
+      "Presentation time: 10 minutes",
+      "Team size: 2 to 4 members",
+      "Open-source tools only"
+    ],
+    "importantInstructions": [
+      "Bring your own laptops",
+      "Internet access provided"
+    ],
+    "contactPerson": "Karthik Nair",
+    "contactNumber": "+91 98765 43214",
+    "status": "open"
+  },
+  {
+    "id": "literary-001",
+    "name": "Wordsmith Wars",
+    "category": "Cultural",
+    "subCategory": "Literary",
+    "type": "Individual",
+    "description": "A literary competition featuring poetry, creative writing, and a debate round.",
+    "date": "2026-03-16",
+    "time": "10:00 AM",
+    "venue": "Library Hall",
+    "eligibility": "All college students",
+    "teamSize": 1,
+    "registrationFee": 100,
+    "registrationDeadline": "2026-03-10",
+    "rules": [
+      "Three rounds: Poetry, Creative Writing, Debate",
+      "Time limits vary per round",
+      "Topics given on the spot",
+      "Language: English or Hindi"
+    ],
+    "importantInstructions": [
+      "Bring writing materials",
+      "No electronic devices during writing rounds"
+    ],
+    "contactPerson": "Rahul Verma",
+    "contactNumber": "+91 98765 43213",
+    "status": "open"
+  },
+  {
+    "id": "sports-bball-boys-001",
+    "name": "Basketball (Boys)",
+    "category": "Sports",
+    "subCategory": "Basketball",
+    "type": "Team",
+    "gender": "Boys",
+    "description": "Inter-college basketball tournament for boys. Knockout format with quarterfinals, semifinals, and final.",
+    "date": "2026-03-15",
+    "time": "8:00 AM",
+    "venue": "Basketball Court, Sports Complex",
+    "eligibility": "All college male students",
+    "teamSize": 12,
+    "registrationFee": 1000,
+    "registrationDeadline": "2026-03-08",
+    "rules": [
+      "Team of 5 players + 7 substitutes",
+      "Matches: 4 quarters of 10 minutes each",
+      "FIBA rules apply",
+      "Players must wear proper basketball shoes"
+    ],
+    "importantInstructions": [
+      "Team jersey color to be communicated before match",
+      "Report 30 minutes before match time"
+    ],
+    "contactPerson": "Coach Vikram Singh",
+    "contactNumber": "+91 98765 43215",
+    "status": "open",
+    "featured": true
+  },
+  {
+    "id": "sports-volley-boys-001",
+    "name": "Volleyball (Boys)",
+    "category": "Sports",
+    "subCategory": "Volleyball",
+    "type": "Team",
+    "gender": "Boys",
+    "description": "Inter-college volleyball tournament for boys. Best-of-three sets, knockout format.",
+    "date": "2026-03-16",
+    "time": "9:00 AM",
+    "venue": "Volleyball Court, Sports Complex",
+    "eligibility": "All college male students",
+    "teamSize": 9,
+    "registrationFee": 800,
+    "registrationDeadline": "2026-03-08",
+    "rules": [
+      "Team of 6 players + 3 substitutes",
+      "Best of 3 sets to 25 points",
+      "FIVB rules apply",
+      "Proper sports kit mandatory"
+    ],
+    "importantInstructions": [
+      "Team jersey color to be communicated before match",
+      "Report 30 minutes before match time"
+    ],
+    "contactPerson": "Coach Vikram Singh",
+    "contactNumber": "+91 98765 43215",
+    "status": "open",
+    "featured": true
+  },
+  {
+    "id": "sports-tt-boys-001",
+    "name": "Table Tennis (Boys)",
+    "category": "Sports",
+    "subCategory": "Table Tennis",
+    "type": "Individual",
+    "gender": "Boys",
+    "description": "Inter-college table tennis tournament for boys. Singles and doubles categories.",
+    "date": "2026-03-17",
+    "time": "10:00 AM",
+    "venue": "Indoor Sports Hall",
+    "eligibility": "All college male students",
+    "teamSize": 2,
+    "registrationFee": 300,
+    "registrationDeadline": "2026-03-08",
+    "rules": [
+      "Singles and Doubles categories",
+      "Best of 5 games to 11 points",
+      "ITTF rules apply",
+      "Bring your own paddle"
+    ],
+    "importantInstructions": [
+      "Balls provided by organizers",
+      "Report 20 minutes before match"
+    ],
+    "contactPerson": "Coach Anita Rao",
+    "contactNumber": "+91 98765 43216",
+    "status": "open"
+  },
+  {
+    "id": "sports-tt-girls-001",
+    "name": "Table Tennis (Girls)",
+    "category": "Sports",
+    "subCategory": "Table Tennis",
+    "type": "Individual",
+    "gender": "Girls",
+    "description": "Inter-college table tennis tournament for girls. Singles and doubles categories.",
+    "date": "2026-03-17",
+    "time": "2:00 PM",
+    "venue": "Indoor Sports Hall",
+    "eligibility": "All college female students",
+    "teamSize": 2,
+    "registrationFee": 300,
+    "registrationDeadline": "2026-03-08",
+    "rules": [
+      "Singles and Doubles categories",
+      "Best of 5 games to 11 points",
+      "ITTF rules apply",
+      "Bring your own paddle"
+    ],
+    "importantInstructions": [
+      "Balls provided by organizers",
+      "Report 20 minutes before match"
+    ],
+    "contactPerson": "Coach Anita Rao",
+    "contactNumber": "+91 98765 43216",
+    "status": "open"
+  },
+  {
+    "id": "sports-throwball-girls-001",
+    "name": "Throwball (Girls)",
+    "category": "Sports",
+    "subCategory": "Throwball",
+    "type": "Team",
+    "gender": "Girls",
+    "description": "Inter-college throwball tournament for girls. League cum knockout format.",
+    "date": "2026-03-16",
+    "time": "10:00 AM",
+    "venue": "Throwball Court, Sports Complex",
+    "eligibility": "All college female students",
+    "teamSize": 9,
+    "registrationFee": 800,
+    "registrationDeadline": "2026-03-08",
+    "rules": [
+      "Team of 7 players + 2 substitutes",
+      "Best of 3 sets to 15 points",
+      "TFI rules apply",
+      "Proper sports kit mandatory"
+    ],
+    "importantInstructions": [
+      "Team jersey color to be communicated before match",
+      "Report 30 minutes before match time"
+    ],
+    "contactPerson": "Coach Anita Rao",
+    "contactNumber": "+91 98765 43216",
+    "status": "open",
+    "featured": true
+  },
+  {
+    "id": "sports-tennikoit-girls-001",
+    "name": "TenniKoit (Girls)",
+    "category": "Sports",
+    "subCategory": "TenniKoit",
+    "type": "Individual",
+    "gender": "Girls",
+    "description": "Inter-college tennikoit tournament for girls. Singles knockout format.",
+    "date": "2026-03-18",
+    "time": "9:00 AM",
+    "venue": "Indoor Sports Hall",
+    "eligibility": "All college female students",
+    "teamSize": 1,
+    "registrationFee": 200,
+    "registrationDeadline": "2026-03-08",
+    "rules": [
+      "Singles only",
+      "Best of 3 games to 21 points",
+      "TKFI rules apply",
+      "Bring your own koit"
+    ],
+    "importantInstructions": [
+      "Court shoes mandatory",
+      "Report 15 minutes before match"
+    ],
+    "contactPerson": "Coach Anita Rao",
+    "contactNumber": "+91 98765 43216",
+    "status": "open"
+  }
+]

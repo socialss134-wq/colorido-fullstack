@@ -1,0 +1,213 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum EventCategory {
+  Cultural
+  Sports
+}
+
+enum EventType {
+  Solo
+  Group
+  Team
+  Individual
+}
+
+enum RegistrationStatus {
+  open
+  closed
+  filling_fast
+}
+
+enum ResultPosition {
+  first
+  second
+  third
+}
+
+enum ResultStatus {
+  published
+  pending
+}
+
+enum AnnouncementCategory {
+  General
+  Cultural
+  Sports
+  Registration
+  Important
+}
+
+enum Priority {
+  high
+  medium
+  low
+}
+
+model Admin {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  passwordHash String
+  name         String   @default("Administrator")
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model Event {
+  id                   String             @id
+  name                 String
+  category             EventCategory
+  subCategory          String
+  type                 EventType
+  gender               String?
+  description          String
+  date                 String
+  time                 String
+  venue                String
+  eligibility          String
+  teamSize             Int
+  registrationFee      Float
+  registrationDeadline String
+  rules                Json
+  importantInstructions Json
+  contactPerson        String
+  contactNumber        String
+  status               RegistrationStatus
+  featured             Boolean            @default(false)
+  image                String?
+  registrations        Registration[]
+  createdAt            DateTime           @default(now())
+  updatedAt            DateTime           @updatedAt
+
+  @@index([category])
+  @@index([status])
+}
+
+model Participant {
+  id               String         @id @default(cuid())
+  participantName  String
+  email            String
+  phone            String
+  college          String
+  year             String
+  department       String
+  gender           String
+  address          String
+  emergencyContact String
+  registrations    Registration[]
+  createdAt        DateTime       @default(now())
+  updatedAt        DateTime       @updatedAt
+
+  @@index([email])
+}
+
+model Registration {
+  id            String        @id @default(cuid())
+  registrationId String       @unique
+  participantId String
+  eventId       String
+  eventName     String
+  eventCategory EventCategory
+  eventType     EventType
+  teamName      String?
+  status        String        @default("confirmed")
+  termsAccepted Boolean
+  participant   Participant   @relation(fields: [participantId], references: [id], onDelete: Cascade)
+  event         Event         @relation(fields: [eventId], references: [id], onDelete: Restrict)
+  teamMembers   TeamMember[]
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+
+  @@unique([participantId, eventId])
+  @@index([eventId])
+  @@index([createdAt])
+}
+
+model TeamMember {
+  id             String       @id @default(cuid())
+  registrationId String
+  name           String
+  email          String
+  phone          String
+  registration   Registration @relation(fields: [registrationId], references: [id], onDelete: Cascade)
+}
+
+model Announcement {
+  id          String   @id
+  title       String
+  description String
+  date        String
+  category    AnnouncementCategory
+  priority    Priority
+  published   Boolean
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([published, date])
+}
+
+model Result {
+  id           String       @id
+  eventName    String
+  category     EventCategory
+  subCategory  String
+  position     ResultPosition
+  participant  String
+  college      String
+  prize        String
+  status       ResultStatus
+  createdAt    DateTime     @default(now())
+  updatedAt    DateTime     @updatedAt
+}
+
+model ScheduleItem {
+  id        String        @id
+  day       Int
+  date      String
+  time      String
+  eventName String
+  category  EventCategory
+  venue     String
+  status    String
+  createdAt DateTime      @default(now())
+  updatedAt DateTime      @updatedAt
+}
+
+model Sponsor {
+  id        String   @id
+  name      String
+  tier      String
+  logo      String
+  website   String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model GalleryImage {
+  id        String   @id
+  src       String
+  alt       String
+  category  String
+  width     Int
+  height    Int
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model ContactMessage {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  phone     String
+  message   String
+  createdAt DateTime @default(now())
+  read      Boolean  @default(false)
+
+  @@index([createdAt])
+}

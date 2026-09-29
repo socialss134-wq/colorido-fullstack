@@ -1,0 +1,81 @@
+import type { Sponsor } from '@/lib/types';
+
+export const sponsors: Sponsor[] = [
+  {
+    id: 'sp001',
+    name: 'TechNova',
+    tier: 'Title',
+    logo: 'TN',
+    website: '#',
+  },
+  {
+    id: 'sp002',
+    name: 'CloudVerse',
+    tier: 'Platinum',
+    logo: 'CV',
+    website: '#',
+  },
+  {
+    id: 'sp003',
+    name: 'GreenLeaf Energy',
+    tier: 'Platinum',
+    logo: 'GL',
+    website: '#',
+  },
+  {
+    id: 'sp004',
+    name: 'UrbanBites',
+    tier: 'Gold',
+    logo: 'UB',
+    website: '#',
+  },
+  {
+    id: 'sp005',
+    name: 'FitZone Gym',
+    tier: 'Gold',
+    logo: 'FZ',
+    website: '#',
+  },
+  {
+    id: 'sp006',
+    name: 'PrintHub',
+    tier: 'Gold',
+    logo: 'PH',
+    website: '#',
+  },
+  {
+    id: 'sp007',
+    name: 'Cafe Mocha',
+    tier: 'Silver',
+    logo: 'CM',
+    website: '#',
+  },
+  {
+    id: 'sp008',
+    name: 'SpeedX Cabs',
+    tier: 'Silver',
+    logo: 'SX',
+    website: '#',
+  },
+  {
+    id: 'sp009',
+    name: 'BookWorld',
+    tier: 'Silver',
+    logo: 'BW',
+    website: '#',
+  },
+  {
+    id: 'sp010',
+    name: 'RadioCity 91.1',
+    tier: 'Partner',
+    logo: 'RC',
+    website: '#',
+  },
+  {
+    id: 'sp011',
+    name: 'Campus Times',
+    tier: 'Partner',
+    logo: 'CT',
+    website: '#',
+  },
+];
